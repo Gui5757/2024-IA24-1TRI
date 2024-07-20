@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 50px;
+    background-color:aquamarine;
+  }
+
+  h1, h2 {
+    text-decoration: underline  ;
+    font-style: italic;
+  }
+
+  h1{
+    font-size: 33px;
+  }
+
+h2{
+    font-size: 35px;
+    margin-left: 158px;
+}  
+
+nav.perfil {
+    border: 3px solid black;
+    max-width:390px;
+    min-height: 390px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:orange;
+    border-radius: 20px;    
+}
+
+nav.perfil img {
+border-radius: 50px;
+padding: 1.5px;
+width: 250px;
+margin-top: -59px;
+size: 20px;
+}
+
+nav.perfil p{
+font-size:22px;
+font-style:italic;
+}
+
+main {
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+    width: 650px;
+}
+
+main p {
+    font-size: 26px;
+    text-align: center;
+    font-style:italic ;
+    margin-top: 1px;
+}
+
+main img.todos {
+    width: 260px;
+}
+
+main img.pato{
+    width: 280px;
+}
+
+main img.cachorro{
+    width: 230px;
+}   
+
+main img.polvo{
+    width: 300px;
+}
+
+nav button.b1{
+    color:black;
+    background-color:deepskyblue;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+div{
+    display: flex; 
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+
